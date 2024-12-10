@@ -1,8 +1,11 @@
-<h2 align="center"> OCEANTODAY </h2>
 
 <div align="center">
+  
+![Logo Empresa(Ocean Today)](https://github.com/user-attachments/assets/8f4b4759-059e-48d3-af84-53e6c8c5c33c)
+
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/EdielOliveira/OceanToday?style=for-the-badge)
+
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,vscode&theme=dark)](https://skillicons.dev)
 
