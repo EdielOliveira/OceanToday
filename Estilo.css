@@ -1,0 +1,316 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    width: 97%;
+    padding: 0px 25px;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to bottom, #000000b9, #00000021, #ffffff00);
+    border-bottom: 2px solid white;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.imgLogo {
+    margin-top: 15px;
+    width: 100%;
+
+}
+
+#Sec1,
+#Sec2,
+#Sec3,
+#Sec4 {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+#Sec1 {
+    background-image: url('Imagens/Bginicio.png');
+}
+
+.containerSec1 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    background-color: #0C2943;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    display: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#backToTop:hover {
+    background-color: #0056b3;
+}
+
+.containerButton {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_login {
+    border-radius: 20px;
+    background-color: #5DC1EC;
+    border: 0;
+    width: 70px;
+    padding: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.btn_outr {
+    width: 50%;
+    margin-right: 25px;
+    background-color: transparent;
+    border: 0;
+    padding: 5px;
+    border-top: 2px solid white;
+    color: white;
+    cursor: pointer;
+    clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.btn_outr:hover {
+    background: linear-gradient(to bottom, #0d3254, #10395fba, #ffffff00);
+    color: #fff;
+    transform: scale(1);
+}
+
+.btn_ongs {
+    width: 50%;
+    margin-left: 25px;
+    background-color: transparent;
+    border: 0;
+    padding: 5px;
+    border-top: 2px solid white;
+    color: white;
+    cursor: pointer;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+}
+
+.btn_ongs:hover {
+    background: linear-gradient(to bottom, #0d3254, #10395fba, #ffffff00);
+    color: #fff;
+    transform: scale(1);
+}
+
+#Sec2 {
+    background-color: #081725;
+}
+
+.containerSec2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.imageContent {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    height: 100vh;
+}
+
+.imagemDef {
+    width: 80%;
+    height: 100%;
+}
+
+.infoContent {
+    display: flex;
+    width: 60%;
+    height: 80vh;
+    background-color: #10395f87;
+    border: 2px solid #10395F;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+
+#Sec3 {
+    background-image: url('Imagens/Oceanos.png');
+    width: 100%;
+    height: 100vh;
+}
+
+.containerSec3 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+
+#Sec4,
+.mySwiper {
+    background-image: url(Imagens/ImagemPageFundo.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.containerSec4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Posiciona acima do ícone */
+    left: 50%;
+    margin-left: -60px; /* Meio alinhado com o ícone */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.view {
+    background-color: #10395f87;
+    width: 65%;
+    height: 70vh;
+    border: 2px solid #10395F;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContInfo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+    color: white;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.divTitulo {
+    width: 100%;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.h {
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    margin: 35px;
+    margin-bottom: 0px;
+}
+
+.tableInfo {
+    width: 97%;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.mySwiper {
+    width: 100%;
+    height: 100%;
+}
