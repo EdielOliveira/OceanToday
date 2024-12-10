@@ -42,8 +42,11 @@ Windows, Macs e Linux:
 Para abrir o Codigo de estilização do Site feito pelo Visual Studios Code, siga estas etapas:
 
 ```
-<Clique Em "Estilização.css">
+<Clique Em no link Abaixo>
 ```
+
+LINK: https://edieloliveira.github.io/OceanToday/
+
 ```
 E Pronto :D
 ```
