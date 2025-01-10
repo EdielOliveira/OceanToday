@@ -57,8 +57,7 @@ OCEANTODAY
 
 A Enciclopédia de Animais é uma aplicação web que utiliza HTML, CSS e JavaScript para exibir informações sobre espécies como água-viva, baleia-azul, orca e cavalo-marinho. Cada espécie possui dados como habitat, idade e tamanho aproximado, além de um sistema de classificação por nível de perigo.
 
-<img src="https://github.com/user-attachments/assets/13238d74-eda7-483d-864b-851b40c95064" />
-
+<img src="https://github.com/user-attachments/assets/edcb9624-f9e7-4b8c-a7a5-a782914b4e5c" />
 
 <h1 align="center">
 Visão Geral
