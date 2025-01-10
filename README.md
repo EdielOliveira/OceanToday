@@ -59,7 +59,6 @@ A Enciclopédia de Animais é uma aplicação web que utiliza HTML, CSS e JavaSc
 
 <img src="https://github.com/user-attachments/assets/13238d74-eda7-483d-864b-851b40c95064" />
 
-
 <h1 align="center">
 Visão Geral
 </h1>
