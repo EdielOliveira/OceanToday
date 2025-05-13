@@ -35,14 +35,10 @@ Para abrir o código do site feito no Visual Studio Code, siga estas etapas:
 
 Windows, Macs e Linux:
 
-```
-<Abra "Index.html">
-```
-
-Para abrir o Codigo de estilização do Site feito pelo Visual Studios Code, siga estas etapas:
+Para acessar o site siga essas etapas:
 
 ```
-<Clique Em no link Abaixo>
+<Clique no link Abaixo>
 ```
 
 LINK: https://edieloliveira.github.io/OceanToday/
